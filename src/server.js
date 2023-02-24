@@ -11,7 +11,6 @@ import {
 
 const server = express();
 const port = process.env.PORT || 3002;
-//if process.env.PORT does not work, we will use 3001
 
 //Middlewares
 server.use(cors());
